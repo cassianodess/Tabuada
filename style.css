@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    
+}
+
+body{
+    width: 100%;
+    background: url(calculadora.jpg);
+
+    
+}
+
+header{
+    text-align: center;
+    color: black;
+    margin: 20px 0;
+}
+
+section{
+    width: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+input{
+    max-width: 100px; 
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.13);
+
+}
+
+select{
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.349);
+       
+}
+
+
+footer{
+    margin-top: 20px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
